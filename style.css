@@ -5,7 +5,7 @@
     font-size:20px;
     
 }
-.headshot{
+.headPortrait{
     width:200px;
     /* height: 200px; */
     border-radius: 50%;
@@ -25,7 +25,9 @@
     font-family:Times,serif;
 }
 .aboutme{
-    border:1px solid black;  
+    border:1px solid black; 
+    justify-content: center;
+    display: flex; 
 }
 
 .footer{
@@ -46,7 +48,7 @@
 }
 
 .changJing{
-    width: 100%;
+    width: 70%;
 }
 
 h1{
@@ -75,7 +77,13 @@ h1{
     font-family: 'Fjalla One', sans-serif;
 }
 
+/* 作品页面里面的图片 */
 .image{
-    width: 50%;
-    padding-left: 25%;
+    width: 30%;
+    
+}
+
+/* 一些作品作品集 */
+.zuoPinJi{
+    text-align:center
 }
